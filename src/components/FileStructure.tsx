@@ -26,14 +26,21 @@ export default function FileTree() {
       defaultExpandIcon={<ChevronRightIcon />}
       sx={{ height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto' }}
     >
-      <TreeItem nodeId="1" label="Applications">
-        <TreeItem nodeId="2" label="Calendar" />
-      </TreeItem>
-      <TreeItem nodeId="5" label="Documents">
-        <TreeItem nodeId="10" label="OSS" />
-        <TreeItem nodeId="6" label="MUI">
-          <TreeItem nodeId="8" label="index.js" />
+      <TreeItem nodeId="1" label="express-mongoose">
+        <TreeItem nodeId="5" label="src">
+          <TreeItem nodeId="10" label="routes" />
+          <TreeItem nodeId="11" label="app.js" />
         </TreeItem>
+        <TreeItem nodeId="2" label="keploy">
+          <TreeItem nodeId="4" label="test-set-0">
+            <TreeItem nodeId="8" label="tests">
+              <TreeItem nodeId="6" label="test-1.yaml" />
+            </TreeItem>
+
+            <TreeItem nodeId="7" label="mocks.yaml" />
+          </TreeItem>
+        </TreeItem>
+        <TreeItem nodeId="12" label="config.yaml" />
       </TreeItem>
     </TreeView>
   );
