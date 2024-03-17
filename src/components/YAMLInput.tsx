@@ -82,7 +82,7 @@ const YAMLInput = () => {
   }, [editorRef.current]);
 
   return (
-    <div ref={editorRef} className="h-[50vh] overflow-scroll text-lg"></div>
+    <div ref={editorRef} className="h-[50vh] overflow-scroll text-sm"></div>
   );
 };
 export { YAMLInput };
