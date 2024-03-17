@@ -1,3 +1,4 @@
+'use client';
 import * as React from 'react';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
@@ -17,7 +18,7 @@ const data = {
   },
 };
 
-export default function FirstComponent() {
+export default function FileTree() {
   return (
     <TreeView
       aria-label="file system navigator"
